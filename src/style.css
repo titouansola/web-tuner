@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    * {
+        width: fit-content;
+    }
+}
+
+canvas {
+    cursor: pointer;
+}
